@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة بخلفية وصور</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('FADY SHOP.jpg'); /* قم بوضع الصورة الخلفية هنا */
+            background-size: cover; /* يضمن أن الصورة تغطي الشاشة بأكملها */
+            background-position: center; /* يضع الصورة في وسط الشاشة */
+            background-repeat: no-repeat; /* يمنع تكرار الصورة */
+            color: #333;
+        }
+
+        header, footer {
+            background-color: rgba(0, 115, 230, 0.8); /* اجعل الخلفية شفافة بعض الشيء */
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            padding: 2em;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* جعل خلفية النص شفافة بعض الشيء */
+            margin: 2em;
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في موقعي</h1>
+    </header>
+    <main>
+        <h2>محتوى الصفحة</h2>
+        <p>هذه صورة داخل محتوى الصفحة.</p>
+        <img src="FADY SHOP.jpg" alt="FADY SHOP .jpg">
+        <img src="image2.jpg" alt="صورة 2">
+    </main>
+    <footer>
+        <p>حقوق الطبع والنشر &copy; 2024. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
